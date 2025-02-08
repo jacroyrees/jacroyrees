@@ -5,7 +5,7 @@ import FolderOpenOutlinedIcon from "@mui/icons-material/FolderOpenOutlined";
 function Description() {
   const [text, { isDone }] = useTypewriter({
     words: [
-      "> Hello World...\n I'm Jac Royston Rees, A full stack developer currently working at Vodafone UK with a First Class Honours in Computer Science from Swansea University. I have experience across a range of technologies including TypeScript, React, Java, Spring, SQL, Azure etc. Feel free to stick around and take a look at some of my work.",
+      "> Hello World...\n I'm Jac Royston Rees, A Full-Stack developer currently working at Vodafone UK with a First Class Honours in Computer Science from Swansea University. I have experience across a range of technologies including TypeScript, React, Java, Spring, SQL, Azure etc. Feel free to stick around and take a look at some of my work.",
     ],
     loop: 1,
     typeSpeed: 50,
