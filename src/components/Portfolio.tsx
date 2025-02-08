@@ -41,7 +41,7 @@ function Portfolio() {
                 <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-white font-bold underline hover:underline">
                   View Code
                 </a>
-                {item.id === 5 || item.id=== 6 && item.paperUrl && (
+                {(item.id === 5 || item.id=== 6) && item.paperUrl && (
                   <>
                     <span className="mx-2">|</span>
                     <a href={item.paperUrl} target="_blank" rel="noopener noreferrer" className="text-white underline hover:underline">
