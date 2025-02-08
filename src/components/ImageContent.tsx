@@ -1,5 +1,3 @@
-import React from 'react';
-
 function ImageContainer() {
   return (
     <div className="w-full h-[50vh] sm:h-[90vh] flex items-center justify-center relative">
