@@ -11,7 +11,9 @@ const items = [
   { id: 2, title: "Covid-19 Mask Compliance Detection", description: "Detecting Covid 19 mask compliance using OpenCV and Python.", url: "https://github.com/jacroyrees/MaskDetectionNeuralNetwork", technologies: ["python"] },
   { id: 3, title: "2D Java Video Game", description: "This is a dataset of 10,000 32x32 color images in 10 classes, with 6000 images per class. There are 50,000 training images and 10,000 test images.", url: "https://github.com/jacroyrees/BASICRETRO2D", technologies: ["java"] },
   { id: 4, title: "Custom Tetris Clone", description: "Custom made Tetris Clone using Unity3D and C#.", url: "https://github.com/jacroyrees/TetrisUnity", technologies: ["csharp"] },
-  { id: 5, title: "N.E.A.T Vacuum Cleaner simulation", description: "An implementation of a self learning vacuum cleaner in Unity3D utilizing the NEAT algorithm", url: "https://github.com/jacroyrees/NEAT", technologies: ["unity",], paperUrl: "https://example.com/neat-paper" },
+  { id: 5, title: "N.E.A.T Vacuum Cleaner simulation", description: "An implementation of a self learning vacuum cleaner in Unity3D utilizing the NEAT algorithm", url: "https://github.com/jacroyrees/EvolvingDomesticatedNeuroEvolution", technologies: ["unity",], paperUrl: "https://example.com/neat-paper" },
+  { id: 5, title: "CIFAR-10", description: "Image classifier using various techniques", url: "https://github.com/jacroyrees/bigdata/blob/main/961103.ipynb", technologies: ["unity",], paperUrl: "https://github.com/jacroyrees/bigdata/blob/main/CSC345__Object_Recognition%20961103.pdf" },
+
 ];
 
 function Portfolio() {
@@ -39,7 +41,7 @@ function Portfolio() {
                 <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-white font-bold underline hover:underline">
                   View Code
                 </a>
-                {item.id === 5 && item.paperUrl && (
+                {item.id === 5 || item.id=== 6 && item.paperUrl && (
                   <>
                     <span className="mx-2">|</span>
                     <a href={item.paperUrl} target="_blank" rel="noopener noreferrer" className="text-white underline hover:underline">
