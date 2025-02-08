@@ -25,7 +25,7 @@ function Description() {
   }, [isDone]);
 
   return (
-    <div className="w-[100%] max-w-4xl mx-auto h-[350px] md:h-[250px] lg:h-[300px] my-4 lg:my-8 bg-gray-900 rounded-xl shadow-lg relative">
+    <div className="w-[100%] max-w-4xl mx-auto h-[400px] md:h-[250px] lg:h-[300px] my-4 lg:my-8 bg-gray-900 rounded-xl shadow-lg relative">
       <div className="relative flex items-center justify-center p-2 bg-gray-800 rounded-t-lg shadow-xl">
         <div className="absolute left-4 flex items-center space-x-2">
           <div className="w-3 h-3 bg-red-500 rounded-full"></div>
