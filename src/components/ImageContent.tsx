@@ -4,13 +4,13 @@ function ImageContainer() {
       <div className="relative w-[60%] md:w-[80%] h-[60%] rounded-lg bg-[#313131] shadow-xl items-center justify-center hidden md:flex">
         <img
           src="jacroyrees.jpeg"
-          alt="hello"
+          alt="Me"
           className="absolute w-full h-full rounded-lg shadow-xl object-cover transform -translate-x-[5%] -translate-y-[5%]"
         />
       </div>
       <img
-        src="/jacroyrees.jpeg"
-        alt="hello"
+        src="jacroyrees.jpeg"
+        alt="Me"
         className="md:hidden w-[80%] md:w-[10%] h-[60%] rounded-lg shadow-xl object-cover"
       />
     </div>
