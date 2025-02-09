@@ -9,6 +9,7 @@ import Content from "./components/Content";
 import TechStack from "./components/TechStack";
 import Technologies from "./components/Technologies";
 import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 
 function App() {
   const [init, setInit] = useState(false);
@@ -41,14 +42,17 @@ function App() {
         <section className="w-full min-h-screen flex items-center justify-center">
           <Content />
         </section>
-        <section className="w-full min-h-screen flex items-center justify-center">
+        <section className="w-full  items-center justify-center">
           <Technologies />
         </section>
-        <section className="w-full min-h-screen flex items-center justify-center">
+        <section className="w-full  flex items-center justify-center">
           <TechStack />
         </section>
         <section className="w-full min-h-screen flex items-center justify-center">
           <Portfolio />
+        </section> 
+        <section className="w-full min-h-screen flex items-center justify-center">
+          <Resume />
         </section>
       </main>
     </div>

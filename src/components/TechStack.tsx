@@ -17,12 +17,12 @@ const techStackItems = [
 
 function TechStack() {
   return (
-    <div className="flex flex-col items-center w-full min-h-screen px-4 py-10">
-      <h1 className="text-4xl sm:text-3xl text-white font-bold">
+    <div className="flex flex-col items-center w-full px-4 py-10">
+      <h1 className="text-4xl  text-white text-center font-bold">
         Current Technologies
       </h1>
       <p className="text-white text-lg text-center max-w-2xl mt-2">
-        I have over 3 years of experience working in fast-paced, agile environments with various technologies.
+        I have over 3 years of industry experience working in fast-paced, agile environments with various technologies.
       </p>
 
       <div className="flex flex-wrap justify-center gap-6 mt-8 w-full max-w-4xl">

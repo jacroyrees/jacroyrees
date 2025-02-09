@@ -25,7 +25,7 @@ function Description() {
   }, [isDone]);
 
   return (
-    <div className="w-[100%] max-w-4xl mx-auto h-[400px] md:h-[250px] lg:h-[300px] my-4 lg:my-8 bg-gray-900 rounded-xl shadow-lg relative">
+    <div className="w-[100%] max-w-4xl mx-auto my-4 lg:my-8 bg-gray-900 rounded-xl shadow-lg relative">
       <div className="relative flex items-center justify-center p-2 bg-gray-800 rounded-t-lg shadow-xl">
         <div className="absolute left-4 flex items-center space-x-2">
           <div className="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -44,11 +44,11 @@ function Description() {
       <div className="p-2 lg:p-4 text-white font-mono min-h-[200px]">
         <p>{text}_</p>
         {showButtons && (
-          <div className="relative mt-6 bottom-0 left-0 right-0 mb-2  space-x-4 flex items-center justify-center">
-            <button className="px-4 py-2 border-2 border-dashed border-white text-white font-mono hover:bg-gray-700 active:bg-gray-800">
+          <div className="relative mt-6 bottom-0 left-0 right-0 mb-2 space-x-4 flex items-center justify-center">
+            <button className="px-4 py-2 border-2 border-dashed border-white text-white font-mono hover:bg-gray-700 active:bg-gray-800 m-2">
               &gt; View Work
             </button>
-            <button className="px-4 py-2 border-2 border-dashed border-white text-white font-mono hover:bg-gray-700 active:bg-gray-800">
+            <button className="px-4 py-2 border-2 border-dashed border-white text-white font-mono hover:bg-gray-700 active:bg-gray-800 m-2">
               &gt; View Resume
             </button>
           </div>
