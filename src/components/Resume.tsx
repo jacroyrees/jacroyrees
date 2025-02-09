@@ -46,6 +46,9 @@ const Resume: React.FC = () => {
           <div className="flex justify-end space-x-2 absolute bottom-4 right-4">
             <StackIcon name="typescript" style={{ width: 24, height: 24 }} />
             <StackIcon name="reactjs" style={{ width: 24, height: 24 }} />
+            <StackIcon name="java" style={{ width: 24, height: 24 }} />
+            <StackIcon name="spring" style={{ width: 24, height: 24 }} />
+            
             <StackIcon name="datadog" style={{ width: 24, height: 24 }} />
             <StackIcon name="azure" style={{ width: 24, height: 24 }} />
           </div>
