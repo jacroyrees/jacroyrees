@@ -10,6 +10,7 @@ import TechStack from "./components/TechStack";
 import Technologies from "./components/Technologies";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
+import Personal from "./components/Personal";
 
 function App() {
   const [init, setInit] = useState(false);
@@ -54,6 +55,10 @@ function App() {
         <section className="w-full min-h-screen flex items-center justify-center">
           <Resume />
         </section>
+        <section className="w-full min-h-screen flex items-center justify-center">
+          <Personal />
+        </section>
+        <footer className={'w-full items-center text-white text-center'}><p>Designed and Developed by Jac Royston Rees</p></footer>
       </main>
     </div>
   );

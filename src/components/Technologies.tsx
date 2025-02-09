@@ -1,48 +1,8 @@
-import { VscAzureDevops } from "react-icons/vsc";
 import { MdDevices } from "react-icons/md";
 import { MdOutlineHttp } from "react-icons/md";
 import { LuBrain } from "react-icons/lu";
 
-const items = [
-  {
-    id: 0,
-    title: "Full-Stack ECommerce Website",
-    description: "A comprehensive eCommerce platform built with Spring, Spring Boot, and React, incorporating secure transactions, a scalable architecture, and intuitive UI/UX design.",
-    url: "N/A",
-  },
-  {
-    id: 1,
-    title: "MRI Image Manipulation",
-    description: "Advanced image processing techniques applied to 3D MRI scans for early detection and classification of brain tumors, leveraging deep learning algorithms.",
-    url: "https://github.com/jacroyrees/ImageManipulation",
-  },
-  {
-    id: 2,
-    title: "Covid-19 Mask Compliance Detection",
-    description: "A computer vision model using OpenCV and deep learning to detect face mask compliance in real-time, aiding in public health safety measures.",
-    url: "https://github.com/jacroyrees/MaskDetectionNeuralNetwork",
-  },
-  {
-    id: 3,
-    title: "2D Java Video Game",
-    description:
-      "A classic 2D retro-style game developed in Java, featuring custom game physics, procedural level generation, and AI-driven enemy behavior.",
-    url: "https://github.com/jacroyrees/BASICRETRO2D",
-  },
-  {
-    id: 4,
-    title: "Custom Tetris Clone",
-    description: "A fully customized Tetris clone built in Unity3D using C#, incorporating smooth gameplay mechanics and modernized UI elements.",
-    url: "https://github.com/jacroyrees/TetrisUnity",
-  },
-  {
-    id: 5,
-    title: "N.E.A.T Vacuum Cleaner Simulation",
-    description:
-      "An AI-driven autonomous vacuum cleaner simulation utilizing NeuroEvolution of Augmenting Topologies (NEAT) in Unity3D to optimize cleaning efficiency.",
-    url: "https://github.com/jacroyrees/NEAT",
-  },
-];
+
 
 function Technologies() {
   return (
