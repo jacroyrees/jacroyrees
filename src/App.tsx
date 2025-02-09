@@ -42,10 +42,10 @@ function App() {
         <section className="w-full min-h-screen flex items-center justify-center">
           <Content />
         </section>
-        <section className="w-full  items-center justify-center">
+        <section className="w-full min-h-screen flex items-center justify-center">
           <Technologies />
         </section>
-        <section className="w-full  flex items-center justify-center">
+        <section className="w-full min-h-screen flex items-center justify-center">
           <TechStack />
         </section>
         <section className="w-full min-h-screen flex items-center justify-center">

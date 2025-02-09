@@ -18,8 +18,8 @@ const items = [
 function Portfolio() {
   return (
     <div className="text-center">
-      <h1 className="text-6xl text-white mb-4">Portfolio</h1>
-      <p className="text-lg text-gray-300 mb-12">
+      <h1 className="text-5xl text-white font-bold mb-1">Portfolio</h1>
+      <p className="text-lg text-gray-300 mb-4 p-8">
         Here are some of the projects I've worked on. Each project showcases different skills and technologies I've used to solve real-world problems.
       </p>
       <Grid container spacing={4} justifyContent="center" className="p-6">

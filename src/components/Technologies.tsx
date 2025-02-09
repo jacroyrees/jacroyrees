@@ -46,9 +46,9 @@ const items = [
 
 function Technologies() {
   return (
-    <div className="relative w-[100vw]  flex flex-col ml-4 gap-4 font-roboto text-center">
+    <div className="relative w-[100vw]  flex flex-col p-8 gap-4 font-roboto text-center">
       <h1 className="text-5xl text-center text-white font-bold">You're in Expert Hands</h1>
-      <p className="text-center text-white text-lg ml-4 mb-4  ">
+      <p className="text-center text-white text-lg mb-4  ">
         With over three years of experience working in high-performance, agile environments for large organizations, I specialize in building scalable, efficient, and secure software solutions.
       </p>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 text-center">

@@ -11,7 +11,7 @@ import StackIcon from "tech-stack-icons";
 const Resume: React.FC = () => {
   return (
     <div>
-      <h1 className="text-4xl text-white text-center mb-8">Resume</h1>
+      <h1 className="text-4xl text-white text-center mb-8 mt-4 font-bold">Resume</h1>
       <p className="text-lg text-gray-300 text-center mb-12">
     Here you'll find a detailed account of my career, showcasing my skills, experiences, and accomplishments. From software engineering to innovative projects, explore how I've contributed to various teams and organizations.
       </p>

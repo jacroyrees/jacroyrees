@@ -45,10 +45,13 @@ function Description() {
         <p>{text}_</p>
         {showButtons && (
           <div className="relative mt-6 bottom-0 left-0 right-0 mb-2 space-x-4 flex items-center justify-center">
-            <button className="px-4 py-2 border-2 border-dashed border-white text-white font-mono hover:bg-gray-700 active:bg-gray-800 m-2">
+            <button  onClick={() => window.open('https://github.com/jacroyrees', '_blank')}className="px-4 py-2 border-2 border-dashed border-white text-white font-mono hover:bg-gray-700 active:bg-gray-800 m-2">
               &gt; View Work
             </button>
-            <button className="px-4 py-2 border-2 border-dashed border-white text-white font-mono hover:bg-gray-700 active:bg-gray-800 m-2">
+            <button
+              onClick={() => window.open('https://github.com/jacroyrees/jacroyrees.github.io/blob/main/public/JacRees.pdf', '_blank')}
+              className="px-4 py-2 border-2 border-dashed border-white text-white font-mono hover:bg-gray-700 active:bg-gray-800 m-2"
+            >
               &gt; View Resume
             </button>
           </div>
