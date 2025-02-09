@@ -18,7 +18,7 @@ const techStackItems = [
 function TechStack() {
   return (
     <div className="flex flex-col items-center w-full px-4 py-10">
-      <h1 className="text-4xl  text-white text-center font-bold">
+      <h1 className="text-4xl  text-white text-center font-bold mb-1">
         Current Technologies
       </h1>
       <p className="text-white text-lg text-center max-w-2xl mt-2">
