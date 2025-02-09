@@ -113,7 +113,7 @@ const Resume: React.FC = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work lg:mb-8"
-          date="2008 - 2010"
+          date="March 2022 - September 2022"
           dateClassName="timeline-date"
           contentStyle={{
             color: "#fff",
@@ -150,7 +150,7 @@ const Resume: React.FC = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work lg:mb-8"
-          date="2006 - 2008"
+          date="September 2021 - March 2022"
           dateClassName="timeline-date"
           contentStyle={{
             color: "#fff",
