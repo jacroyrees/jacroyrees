@@ -100,8 +100,8 @@ const Resume: React.FC = () => {
           <h3 className="text-2xl font-bold mb-4">Graduate Software Engineer - Innovation</h3>
           <h4>Vodafone Group</h4>
           <ul className="list-disc ml-5 mb-4">
-            <li>Developed multi-tenant web application for internal events.</li>
-            <li>Created an AR app to interact with Jira tasks using Unity3D.</li>
+            <li>Developed multi-tenant web application for internal events, demos and knowledge shares. Reduced the number of siloed sites from 12 to 1</li>
+            <li>Designed and developed a Augmented application to interact with Jira tickets via hand gestures using Unity3D</li>
           </ul>
           <div className="flex justify-end space-x-2 absolute bottom-4 right-4">
             <StackIcon name="csharp" style={{ width: 24, height: 24 }} />
